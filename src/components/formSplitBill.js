@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Button from "./button";
+
 export default function FormSplitBill({ selectedFriend, handleSpitBill }) {
     const [bill, setBill] = useState("");
     const [paidByUser, setPaidByUser] = useState("");

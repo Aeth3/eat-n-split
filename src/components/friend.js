@@ -1,6 +1,7 @@
 import Button from "./button";
 
 export default function Friend({ friend, setSelectedFriend, selectedFriend, setOpen }) {
+  
     function handleSelectedFriend(friend) {
       setSelectedFriend((current) => (current?.id === friend.id ? null : friend));
       setOpen(false);
